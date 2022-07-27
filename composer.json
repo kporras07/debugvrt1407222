@@ -5,6 +5,10 @@
     "license": "MIT",
     "repositories": [
         {
+            "type": "path",
+            "url": "modules/pantheon_advanced_page_cache"
+        },
+        {
             "type": "composer",
             "url": "https:\/\/packages.drupal.org\/8"
         },
@@ -22,7 +26,9 @@
         "cweagans\/composer-patches": "^1.7",
         "drush\/drush": "^11 || ^12",
         "drush-ops/behat-drush-endpoint": "^9.4",
-        "pantheon-systems/quicksilver-pushback": "^2.1"
+        "pantheon-systems/quicksilver-pushback": "^2.1",
+        "drupal/upgrade_status": "^3.14",
+        "drupal/pantheon_advanced_page_cache": "*"
     },
     "require-dev": {
         "drupal\/core-dev": "^9.2",
